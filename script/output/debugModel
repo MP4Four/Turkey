@@ -1,0 +1,11 @@
+/usr/lib/NetworkManager/ifblacklist_migrate.sh:3:#set -x
+/usr/src/linux-headers-4.4.0-21/zfs/config/ltmain.sh:1696:        --debug|-x)   debug_cmd='set -x'
+/usr/src/linux-headers-4.4.0-21/scripts/link-vmlinux.sh:145:	set -x
+/usr/src/linux-headers-4.4.0-21/scripts/tags.sh:11:	set -x
+/usr/src/linux-headers-4.4.0-21/scripts/decode_stacktrace.sh:3:#set -x
+/usr/src/linux-headers-4.4.0-21/spl/config/ltmain.sh:1696:        --debug|-x)   debug_cmd='set -x'
+/etc/wpa_supplicant/ifupdown.sh:32:	set -x
+/usr/lib/python3.5/pipes.py:177:            cmd = 'set -x; ' + cmd
+/usr/lib/python3/dist-packages/aptdaemon/policykit1.py:57:PK_ACTION_SET_PROXY = "org.debian.apt.set-proxy"
+/usr/lib/python3/dist-packages/Onboard/Config.py:808:                      "xembed-unity-greeter-offset-x"]:
+/usr/lib/python2.7/pipes.py:189:            cmd = 'set -x; ' + cmd

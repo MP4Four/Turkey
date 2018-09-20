@@ -1,0 +1,51 @@
+root         1     0  0 19:16 ?        00:00:01 /sbin/init auto noprompt
+root       344     1  0 19:16 ?        00:00:00 /lib/systemd/systemd-journald
+root       380     1  0 19:16 ?        00:00:00 /lib/systemd/systemd-udevd
+root       381     1  0 19:16 ?        00:00:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+root       401     1  0 19:16 ?        00:00:05 /usr/bin/vmtoolsd
+root       729     1  0 19:16 ?        00:00:00 /lib/systemd/systemd-logind
+root       732     1  0 19:16 ?        00:00:00 /usr/sbin/ModemManager
+root       777     1  0 19:16 ?        00:00:00 /usr/sbin/cupsd -l
+root       780     1  0 19:16 ?        00:00:00 /usr/sbin/cron -f
+root       790     1  0 19:16 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+avahi      791   786  0 19:16 ?        00:00:00 avahi-daemon: chroot helper
+root       792     1  0 19:16 ?        00:00:00 /usr/bin/VGAuthService
+root       813     1  0 19:16 ?        00:00:03 /usr/sbin/NetworkManager --no-daemon
+root       829     1  0 19:16 ?        00:00:00 /usr/sbin/acpid
+root       830     1  0 19:16 ?        00:00:00 /usr/sbin/cups-browsed
+root       888     1  0 19:16 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+root       904     1  0 19:16 ?        00:00:00 /usr/sbin/lightdm
+root       916     1  0 19:16 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+root       962   904  0 19:16 tty7     00:00:17 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1018     1  0 19:16 ?        00:00:00 /usr/lib/bluetooth/bluetoothd
+root      1094     1  0 19:16 ?        00:00:00 tpvmlpd2
+root      1275   904  0 19:16 ?        00:00:00 lightdm --session-child 12 19
+root      1378     1  0 19:16 ?        00:00:00 /usr/lib/upower/upowerd
+root      2124     1  0 19:17 ?        00:00:00 /usr/lib/udisks2/udisksd --no-debug
+root      2192     1  0 19:17 ?        00:00:00 /usr/lib/i386-linux-gnu/fwupd/fwupd
+root      2498   813  0 19:19 ?        00:00:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-ens33.pid -lf /var/lib/NetworkManager/dhclient-e6f5555d-ebc2-327e-b49f-dbd72edd70b8-ens33.lease -cf /var/lib/NetworkManager/dhclient-ens33.conf ens33
+  - 内存占用TOP10
+-------------
+-e    PID  %MEM   RSS                                                       COMMAND
+2095  6.8  70168  /usr/bin/gnome-software
+1913  6.3  65020  compiz
+2409  5.3  54924  /usr/bin/python3
+962   4.4  46052  /usr/lib/xorg/Xorg
+2092  4.4  45908  nautilus
+3067  3.9  40744  /usr/lib/gnome-terminal/gnome-terminal-server
+2064  3.8  39668  /usr/lib/evolution/evolution-calendar-factory
+2114  3.1  32624  /usr/lib/evolution/evolution-calendar-factory-subprocess
+2182  3.0  30956  /usr/lib/evolution/evolution-calendar-factory-subprocess
+1915  2.9  30224  /usr/lib/i386-linux-gnu/unity/unity-panel-service
+  - CPU占用TOP10
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 3067 mac       20   0  231640  40744  31760 S  6.2  4.0   0:02.75 gnome-terminal-
+    1 root      20   0   24112   4488   3448 S  0.0  0.4   0:01.97 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.18 ksoftirqd/0
+    5 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H
+    7 root      20   0       0      0      0 S  0.0  0.0   0:00.76 rcu_sched
+    8 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_bh
+    9 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0
+   10 root      rt   0       0      0      0 S  0.0  0.0   0:00.04 watchdog/0
+   11 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs
